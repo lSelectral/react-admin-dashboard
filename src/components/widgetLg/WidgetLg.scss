@@ -1,0 +1,70 @@
+.widgetLg{
+    flex: 2;
+    padding: 20px;
+
+    -webkit-box-shadow: 1px 0px 8px 1px #000000; 
+    box-shadow: 1px 0px 8px 1px #000000;
+
+    .title{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    table{
+        width: 100%;
+        border-spacing: 20px;
+
+        tr{
+
+            th{
+                text-align: left;
+
+            }
+
+            .name{
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+
+                .image{
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+
+
+            .date{
+                
+            }
+
+            .amount{
+
+            }
+
+            .status{
+
+                .button{
+                    padding: 5px 7px;
+                    border: none;
+                    border-radius: 10px;
+                    font-weight: 600;
+                }
+    
+                .button.Approved{
+                    background-color: #a9fddd;
+                }
+    
+                .button.Declined{
+                    background-color: #faa9af;
+                }
+    
+                .button.Pending{
+                    background-color: #d1defa;
+                }
+            }
+        }
+    }
+}

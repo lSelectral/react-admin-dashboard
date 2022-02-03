@@ -1,0 +1,62 @@
+.widgetSm{
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+
+    -webkit-box-shadow: 1px 0px 8px 1px #000000; 
+    box-shadow: 1px 0px 8px 1px #000000;
+
+    .title{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        .listItem{
+            display: flex;
+            margin: 20px 0px;
+            justify-content: space-between;
+            background-color: rgb(202, 202, 202);
+            border-radius: 10px;
+            .image{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .user{
+                display: flex;
+                flex-direction: column;
+
+                .userName{  
+                    font-weight: 600;
+                }
+
+                .userTitle{
+                    font-weight: 300;
+                }
+            }
+
+            .displayButton{
+                display: flex;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                padding: 7px 10px;
+                background-color: #afafe4;
+                color: #555;
+                cursor: pointer;
+
+                .icon{
+                    margin-right: 5px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
